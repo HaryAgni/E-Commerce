@@ -16,14 +16,14 @@ const HeroSection = ({ myData }) => {
               <p>
                 {content}
               </p>
-              <NavLink to="/products">
+              <NavLink to="/E-Commerce/products">
                 <Button>Shop Now</Button>
               </NavLink>
             </div>
             <div className="hero-section-img">
               <figure>
                 <img
-                  src={img}
+                  src={process.env.PUBLIC_URL + img}
                   alt="hero"
                   className="img-style"
                 />

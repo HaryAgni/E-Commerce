@@ -44,16 +44,16 @@ const App = () => {
           <GlobalStyle />
           <Header />
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/about" element={<About />} />
-            <Route exact path="/products" element={<Products />} />
-            <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/E-Commerce" element={<Home />} />
+            <Route exact path="/E-Commerce/about" element={<About />} />
+            <Route exact path="/E-Commerce/products" element={<Products />} />
+            <Route exact path="/E-Commerce/contact" element={<Contact />} />
             <Route
               exact
-              path="/singleproduct/:id"
+              path="/E-Commerce/singleproduct/:id"
               element={<SingleProduct />}
             />
-            <Route exact path="/cart" element={<Cart />} />
+            <Route exact path="/E-Commerce/cart" element={<Cart />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
           <Footer />

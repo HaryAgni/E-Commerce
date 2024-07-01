@@ -167,7 +167,7 @@ const Nav = () => {
         <ul className="navbar-lists">
           <li>
             <NavLink
-              to="/"
+              to="/E-Commerce"
               className="navbar-link"
               onClick={() => setMenuIcon(false)}
             >
@@ -176,7 +176,7 @@ const Nav = () => {
           </li>
           <li>
             <NavLink
-              to="/about"
+              to="/E-Commerce/about"
               className="navbar-link"
               onClick={() => setMenuIcon(false)}
             >
@@ -185,7 +185,7 @@ const Nav = () => {
           </li>
           <li>
             <NavLink
-              to="/products"
+              to="/E-Commerce/products"
               className="navbar-link"
               onClick={() => setMenuIcon(false)}
             >
@@ -194,7 +194,7 @@ const Nav = () => {
           </li>
           <li>
             <NavLink
-              to="/contact"
+              to="/E-Commerce/contact"
               className="navbar-link"
               onClick={() => setMenuIcon(false)}
             >
@@ -203,7 +203,7 @@ const Nav = () => {
           </li>
           <li>
             <NavLink
-              to="/cart"
+              to="/E-Commerce/cart"
               className="navbar-link cart-trolley--link"
               onClick={() => setMenuIcon(false)}
             >

@@ -28,7 +28,7 @@ const Cart = () => {
         </div>
         <hr />
         <div className="cart-two-button">
-          <NavLink to="/products">
+          <NavLink to="/E-Commerce/products">
             <Button>continue shopping</Button>
           </NavLink>
           <Button className="btn-clear" onClick={clearCart}>

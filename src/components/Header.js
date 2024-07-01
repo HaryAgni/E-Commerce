@@ -6,8 +6,8 @@ import Nav from "./Nav";
 const Header = () => {
   return (
     <Mainheader>
-      <NavLink to="/">
-        <img src="images/logo.png" alt="logo" className="logo" />
+      <NavLink to="/E-Commerce">
+        <img src={process.env.PUBLIC_URL+'/images/logo.png'} alt="logo" className="logo" />
       </NavLink>
       <Nav />
     </Mainheader>

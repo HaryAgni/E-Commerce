@@ -57,7 +57,7 @@ const AddToCart = ({ product }) => {
         />
 
         <NavLink
-          to="/cart"
+          to="/E-Commerce/cart"
           onClick={() => addToCart(id, color, amount, product)}
         >
           <Button className="btn">Add To Cart</Button>

@@ -6,7 +6,7 @@ const Product = (curElem) => {
   const { name, id, image, price, category } = curElem;
   return (
     <>
-      <NavLink to={`/singleproduct/${id}`}>
+      <NavLink to={`/E-Commerce/singleproduct/${id}`}>
         <div className="card">
           <figure>
             <img src={image} alt={name} />
